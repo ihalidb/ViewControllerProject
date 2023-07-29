@@ -17,8 +17,30 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("view did load")
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("view did appear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        print("view did disappear")
+        textField.text = ""
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print("view will apear")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print("view will disapear")
+    }
+    
+    
+    
+    
+    
 
     @IBAction func kontrolEtTiklandi(_ sender: Any) {
         
