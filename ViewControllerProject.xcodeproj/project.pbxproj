@@ -13,6 +13,7 @@
 		ECAD0CEA2A752C2F00CFA67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAD0CE82A752C2F00CFA67A /* Main.storyboard */; };
 		ECAD0CEC2A752C2F00CFA67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAD0CEB2A752C2F00CFA67A /* Assets.xcassets */; };
 		ECAD0CEF2A752C2F00CFA67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAD0CED2A752C2F00CFA67A /* LaunchScreen.storyboard */; };
+		ECAD0CF72A7530CC00CFA67A /* IkinciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0CF62A7530CC00CFA67A /* IkinciViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ECAD0CEB2A752C2F00CFA67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECAD0CEE2A752C2F00CFA67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECAD0CF02A752C2F00CFA67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAD0CF62A7530CC00CFA67A /* IkinciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkinciViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				ECAD0CE22A752C2F00CFA67A /* AppDelegate.swift */,
 				ECAD0CE42A752C2F00CFA67A /* SceneDelegate.swift */,
 				ECAD0CE62A752C2F00CFA67A /* ViewController.swift */,
+				ECAD0CF62A7530CC00CFA67A /* IkinciViewController.swift */,
 				ECAD0CE82A752C2F00CFA67A /* Main.storyboard */,
 				ECAD0CEB2A752C2F00CFA67A /* Assets.xcassets */,
 				ECAD0CED2A752C2F00CFA67A /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				ECAD0CE72A752C2F00CFA67A /* ViewController.swift in Sources */,
 				ECAD0CE32A752C2F00CFA67A /* AppDelegate.swift in Sources */,
 				ECAD0CE52A752C2F00CFA67A /* SceneDelegate.swift in Sources */,
+				ECAD0CF72A7530CC00CFA67A /* IkinciViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
